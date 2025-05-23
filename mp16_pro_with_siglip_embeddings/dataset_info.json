@@ -1,0 +1,128 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "mp16-pro",
+  "dataset_size": 2187235808,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Jia-py/MP16-Pro@97fe210ec78931bb25c270ffc41d497c4953f0ae/metadata/MP16_Pro_filtered.csv": {
+      "num_bytes": 747101414,
+      "checksum": null
+    },
+    "hf://datasets/Jia-py/MP16-Pro@97fe210ec78931bb25c270ffc41d497c4953f0ae/metadata/MP16_Pro_places365.csv": {
+      "num_bytes": 859123209,
+      "checksum": null
+    },
+    "hf://datasets/Jia-py/MP16-Pro@97fe210ec78931bb25c270ffc41d497c4953f0ae/metadata/mp16_urls.csv": {
+      "num_bytes": 385332005,
+      "checksum": null
+    }
+  },
+  "download_size": 1991556628,
+  "features": {
+    "IMG_ID": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "AUTHOR": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "LAT": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "LON": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "S3_Label": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "S16_Label": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "S365_Label": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Prob_indoor": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Prob_natural": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Prob_urban": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "neighbourhood": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "city": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "county": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "state": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "region": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "country": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "country_code": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "continent": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "embedding": {
+      "feature": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4178792436,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2187235808,
+      "num_examples": 13569508,
+      "shard_lengths": [
+        2660000,
+        2652119,
+        2660000,
+        3933695,
+        1663694
+      ],
+      "dataset_name": "mp16-pro"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
